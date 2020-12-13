@@ -186,6 +186,6 @@
                             background-color: silver;
                             background-blend-mode: screen;
                             font-weight: 500 !important;
-                            color: black !important;
+                            color: black;
                             line-height: 1.7;
                         }
