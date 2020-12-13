@@ -1,0 +1,191 @@
+                        body {
+                            font-family: 'Quicksand', sans-serif;
+                            overflow-x: hidden;
+                        }
+                        
+                        .navbar {
+                            background-image: linear-gradient(90deg, #3E4551, #212121);
+                            box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
+                        }
+                        
+                        .nav-link {
+                            color: white!important;
+                            text-transform: capitalize;
+                            font-weight: 500;
+                            letter-spacing: .1rem;
+                            font-size: 20px;
+                            text-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
+                            margin-right: 30px;
+                        }
+                        
+                        .nav-link.active,
+                        .nav-link:hover {
+                            border-bottom: 1px solid white;
+                        }
+                        
+                        .carousel-item>img {
+                            max-height: 32rem;
+                            max-width: 1920px !important;
+                        }
+                        
+                        .carousel-caption h2 {
+                            font-size: 2.2rem;
+                            text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, .1);
+                        }
+                        
+                        .bg-custom {
+                            background-color: rgba(0, 0, 0, .6);
+                            color: white;
+                            border-radius: 1rem;
+                            text-shadow: .1rem 1rem .2rem rgba(0, 0, 0, .15);
+                        }
+                        
+                        .heading-underline {
+                            width: 20rem;
+                            height: .2rem;
+                            background-color: rgb(26, 25, 25);
+                            margin: 0 auto 2rem;
+                        }
+                        
+                        .fixed-background {
+                            background-image: url(img/firma.jpg);
+                            background-attachment: fixed;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                        }
+                        
+                        .fixed-background h1 {
+                            background-color: rgba(0, 0, 0, .6);
+                            color: white;
+                            border-radius: 1rem;
+                            text-shadow: .1rem 1rem .2rem rgba(0, 0, 0, .15);
+                        }
+                        
+                        .footer {
+                            padding-top: 3rem;
+                            padding-bottom: 8px;
+                            background-image: linear-gradient(90deg, #3E4551, #212121);
+                            color: #fff !important;
+                        }
+                        
+                        .kontakt,
+                        .onas {
+                            background-image: url(img/firma.jpg);
+                            background-color: lightgray;
+                            background-blend-mode: screen;
+                            text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, .1);
+                        }
+                        
+                        .footer a:link {
+                            color: white;
+                            text-decoration: none;
+                        }
+                        
+                        .kontakt a:link {
+                            color: black;
+                            text-decoration: none;
+                        }
+                        
+                        .projekty a:link {
+                            color: black;
+                            text-decoration: none;
+                        }
+                        
+                        .inner {
+                            overflow: hidden;
+                        }
+                        
+                        .inner img {
+                            transition: all 1.5s ease;
+                            height: 17rem;
+                        }
+                        
+                        .inner:hover img {
+                            transform: scale(1.5);
+                        }
+                        
+                        .lazienka {
+                            background-image: url(img/modern.jpg);
+                            background-color: silver;
+                            background-blend-mode: screen;
+                            font-weight: 500 !important;
+                            line-height: 1.7;
+                            color: black !important;
+                        }
+                        
+                        .owl-carousel .owl-stage {
+                            display: flex;
+                            align-items: center;
+                        }
+                        
+                        .kuchnia {
+                            background-image: url(img/kuchnia3.jpg);
+                            background-color: silver;
+                            background-blend-mode: screen;
+                            font-weight: 500 !important;
+                            color: black !important;
+                            line-height: 1.7;
+                        }
+                        
+                        .salon {
+                            background-image: url(img/salon.jpg);
+                            background-color: silver;
+                            background-blend-mode: screen;
+                            font-weight: 500 !important;
+                            color: black !important;
+                            line-height: 1.7;
+                        }
+                        
+                        .tarasy {
+                            background-image: url(img/taras1.jpg);
+                            background-color: silver;
+                            background-blend-mode: screen;
+                            font-weight: 500 !important;
+                            color: black !important;
+                            line-height: 1.7;
+                        }
+                        
+                        .przemyslowe {
+                            background-image: url(img/przemyslowe.jpg);
+                            background-color: silver;
+                            background-blend-mode: screen;
+                            font-weight: 500 !important;
+                            color: black !important;
+                            line-height: 1.7;
+                        }
+                        
+                        .baseny {
+                            background-image: url(img/basen.jpg);
+                            background-color: silver;
+                            background-blend-mode: screen;
+                            font-weight: 500 !important;
+                            color: black !important;
+                            line-height: 1.7;
+                        }
+                        
+                        .armatura {
+                            background-image: url(img/sanitariatysm.jpg);
+                            background-color: silver;
+                            background-blend-mode: screen;
+                            font-weight: 500 !important;
+                            color: black !important;
+                            line-height: 1.7;
+                        }
+                        
+                        .chemia {
+                            background-image: url(img/chemia.jpg);
+                            background-color: silver;
+                            background-blend-mode: screen;
+                            font-weight: 500 !important;
+                            color: black !important;
+                            line-height: 1.7;
+                        }
+                        
+                        .projekty {
+                            background-image: url(img/projekty1.jpg);
+                            background-color: silver;
+                            background-blend-mode: screen;
+                            font-weight: 500 !important;
+                            color: black !important;
+                            line-height: 1.7;
+                        }
